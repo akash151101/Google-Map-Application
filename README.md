@@ -12,3 +12,13 @@ Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm
 Breadth First Traversal (or Search) for a graph is similar to Breadth First Traversal of a tree. The only catch here is, unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a boolean visited array. For simplicity, it is assumed that all vertices are reachable from the starting vertex...[read more](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 ### A* Search Algorithm
 A* is the most popular choice for pathfinding, because it’s fairly flexible and can be used in a wide range of contexts. A* is like Dijkstra’s Algorithm in that it can be used to find a shortest path. A* is like Greedy Best-First-Search in that it can use a heuristic to guide itself. In the simple case, it is as fast as Greedy Best-First-Search. It often used in many fields of computer science due to its completeness, optimality, and optimal efficiency...[read more](https://www.geeksforgeeks.org/a-search-algorithm/).
+## Screenshots
+![Image1](https://github.com/akash151101/Google-Map-Application/blob/master/Images/image2.JPG)
+
+![Image2](https://github.com/akash151101/Google-Map-Application/blob/master/Images/image3.JPG)
+
+![Image3](https://github.com/akash151101/Google-Map-Application/blob/master/Images/image4.JPG)
+
+![Image4](https://github.com/akash151101/Google-Map-Application/blob/master/Images/image5.JPG)
+
+![Image5](https://github.com/akash151101/Google-Map-Application/blob/master/Images/image6.JPG)
