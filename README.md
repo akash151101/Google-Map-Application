@@ -22,3 +22,26 @@ A* is the most popular choice for pathfinding, because it’s fairly flexible an
 ![Image4](https://github.com/akash151101/Google-Map-Application/blob/master/Images/image5.JPG)
 
 ![Image5](https://github.com/akash151101/Google-Map-Application/blob/master/Images/image6.JPG)
+## Run Locally
+### 1. Clone repo
+
+```
+$ gh repo clone akash151101/Google-Map-Application
+$ cd Google-Map-Application
+```
+
+### 2. Get Google Maps API Key 
+
+```
+$ Go to https://developers.google.com/maps/documentation/javascript/
+$ Click on Get a Key at the top of the page
+$ In the project folder, find the file src/html/index.html in the Package Explorer. Right-click on the file and select Open With->Text Editor.
+$ Then replace the text <script src="https://maps.googleapis.com/maps/api/js?key=[APIKeyHere]&callback=initMap"></script> --> with the API Key you copied
+```
+
+### 3. Run Backend
+
+```
+$ open MapApp.java : UCSDGraph->src->application->MapApp.java
+$ Run MapApp.java(Alt+Shift+X, J)
+```
